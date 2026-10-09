@@ -1,0 +1,14 @@
+# Archivos y carpetas ignorados al construir la imagen Docker
+node_modules
+.next
+.git
+.spec
+terraform
+.env*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+README.md
+Dockerfile
+.dockerignore

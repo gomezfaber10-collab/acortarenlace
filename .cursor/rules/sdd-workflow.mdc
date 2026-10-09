@@ -1,0 +1,8 @@
+acortarenlace/
+├── .cursor/
+│   └── rules/
+│       └── sdd-workflow.mdc
+└── .spec/
+    ├── requirements.md
+    ├── design.md
+    └── tasks.md
