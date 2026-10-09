@@ -41,18 +41,12 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# terraform
+# Ignorar solo el ejecutable de Terraform
+*.exe
+terraform/terraform.exe
+terraform/*.exe
+
+# Ignorar estados y carpetas temporales de Terraform
 .terraform/
 *.tfstate
-*.tfstate.*
-*.tfvars
-!*.tfvars.example
-crash.log
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
-
-# Ejecutables y binarios
-*.exe
-terraform/
+*.tfstate.backup
